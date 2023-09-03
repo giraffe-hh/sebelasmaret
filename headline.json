@@ -1,0 +1,21 @@
+[
+    {
+      "image": "./assets/images/blog-post-1.jpg",
+      "title": "Headline #01",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim. Eleifend quam adipiscing vitae proin sagittis nisl. Et netus et malesuada fames ac turpis. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. A erat nam at lectus. ",
+      "link": "#"
+    },
+    {
+      "image": "./assets/images/blog-post-2.jpg",
+      "title": "Headline #02",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim. Eleifend quam adipiscing vitae proin sagittis nisl. Et netus et malesuada fames ac turpis. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. A erat nam at lectus. ",
+      "link": "#"
+    },
+    {
+      "image": "./assets/images/blog-post-3.jpg",
+      "title": "Headline #03",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim. Eleifend quam adipiscing vitae proin sagittis nisl. Et netus et malesuada fames ac turpis. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. A erat nam at lectus. ",
+      "link": "#"
+    }
+  ]
+  
