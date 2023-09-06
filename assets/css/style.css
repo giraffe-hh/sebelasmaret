@@ -183,11 +183,13 @@ img {
   margin-bottom: 60px;
 }
 
-.section-title .line {
-  width: 60px;
+.line {
+  /* width: 60px;
   height: 4px;
   background-color: var(--c-brand);
-  margin: 16px auto 24px auto;
+  margin: 16px auto 24px auto; */
+  border-bottom: 4px solid var(--c-brand);
+  display: inline-block
 }
 
 .section-title p {

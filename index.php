@@ -153,9 +153,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
+                    <div class="section-title line">
                         <h1 class="display-4 fw-semibold">Layanan</h1>
-                        <div class="line"></div>
+                        <!-- <div class="line"></div> -->
                     </div>
                 </div>
             </div>
@@ -346,10 +346,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
+                    <div class="section-title line">
                         <h1 class="display-4 fw-semibold">Bagian dari Kami</h1>
-                        <div class="line"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
+                        <!-- <div class="line"></div> -->
                     </div>
                 </div>
             </div>
@@ -371,7 +370,7 @@
                             <div class="iconbox">
                                 <i class="ri-box-3-fill"></i>
                             </div>
-                            <h5 class="mt-4 mb-3">Bagaian Aset dan Logistik</h5>
+                            <h5 class="mt-4 mb-3">Bagian Aset dan Logistik</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
                         </a>
                     </div>
@@ -384,9 +383,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
+                    <div class="section-title line">
                         <h1 class="display-4 fw-semibold">Video</h1>
-                        <div class="line"></div>
+                        <!-- <div class="line"></div> -->
                     </div>
                 </div>
             </div>
@@ -445,9 +444,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
+                    <div class="section-title line">
                         <h1 class="display-4 fw-semibold text-center">Berita UNS</h1>
-                        <div class="line"></div>
+                        <!-- <div class="line"></div> -->
                     </div>
                     <?php
                     // Mengambil data dari file .json
@@ -474,9 +473,9 @@
                     <?php } ?>
                 </div>
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
+                    <div class="section-title line">
                         <h1 class="display-4 fw-semibold text-center">Agenda</h1>
-                        <div class="line"></div>
+                        <!-- <div class="line"></div> -->
                     </div>
                     <?php
                     // Mengambil data dari file .json
