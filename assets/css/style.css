@@ -209,6 +209,14 @@ img {
   flex: none;
 }
 
+.card {
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
 /* SERVICE */
 .service {
   position: relative;
@@ -263,6 +271,29 @@ img {
 
 .text-content {
   flex: 2; /* Bagian teks akan memenuhi sisa ruang yang tersedia */
+}
+
+.video-gallery {
+    max-width: 300px; /* Set a maximum width for the gallery */
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+/* Style for individual video thumbnails */
+.video-thumbnail {
+    cursor: pointer;
+    margin-bottom: 10px; /* Add some space between thumbnails */
+}
+
+/* Style for the active video thumbnail */
+.video-thumbnail.active {
+    border: 2px solid var(--c-brand); /* Highlight the active video */
+}
+
+/* Style for the video player iframe */
+.video-player {
+    width: 100%;
+    height: 400px; /* Set the height for the video player */
 }
 
 /* COUNTER */

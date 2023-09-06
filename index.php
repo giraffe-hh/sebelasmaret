@@ -21,6 +21,32 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<header class="bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">UNS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Akademik UNS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Research</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary me-2" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
 
@@ -64,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Welcome to elixir</h1>
+                    <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Welcome to UNS</h1>
                     <h5 class="text-white mt-3 mb-4" data-aos="fade-right">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h5>
                     <div data-aos="fade-up" data-aos-delay="50">
                         <a href="#" class="btn btn-brand me-2">Get Started</a>
@@ -133,8 +159,113 @@
                     </div>
                 </div>
             </div>
+
             <div class="row g-4 text-center">
                 <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-file-chart-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Laporan Keuangan</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-flow-chart" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Prosedur Operasional</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-survey-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Form dan Blanko</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-arrow-go-back-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Pengembalian UKT</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-hammer-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Pemeliharaan Jalan Gedung dan Bangunan</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-tools-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Pemeliharaan Peralatan Mesin</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-file-reduce-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Penghapusan Aset</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary p-2">
+                            <div>
+                                <i class="ri-file-list-2-fill" style="font-size: 50px; color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Inventarisasi Aset</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
                     <div class="service theme-shadow p-lg-5 p-4  h-100">
                         <div class="iconbox">
                             <i class="ri-file-chart-fill"></i>
@@ -205,7 +336,7 @@
                         <h5 class="mt-4 mb-3">Inventarisasi Aset</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -218,29 +349,30 @@
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">Bagian dari Kami</h1>
                         <div class="line"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
                     </div>
                 </div>
             </div>
             <div class="row g-4 text-center">
                 <div class="col-lg-6 col-sm-6" data-aos="fade-down" data-aos-delay="150">
-                    <div class="theme-shadow p-lg-5 p-4">
+                    <div class="service theme-shadow p-lg-5 p-4">
                         <a href="http://keuangan.uns.ac.id/">
                             <div class="iconbox">
                                 <i class="ri-coins-fill"></i>
                             </div>
                             <h5 class="mt-4 mb-3">Bagian Keuangan</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6" data-aos="fade-down" data-aos-delay="250">
-                    <div class="theme-shadow p-lg-5 p-4">
+                    <div class="service theme-shadow p-lg-5 p-4">
                         <a href="#">
                             <div class="iconbox">
                                 <i class="ri-box-3-fill"></i>
                             </div>
                             <h5 class="mt-4 mb-3">Bagaian Aset dan Logistik</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
                         </a>
                     </div>
                 </div>
@@ -258,7 +390,7 @@
                     </div>
                 </div>
             </div>
-            <div id="videoCarousel" class="carousel slide container-fluid px-0" data-bs-ride="carousel">
+            <!-- <div id="videoCarousel" class="carousel slide container-fluid px-0" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="embed-responsive embed-responsive-16by9">
@@ -279,6 +411,32 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+            </div> -->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <!-- iframe for playing video -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe id="video-player" class="video-player embed-responsive-item" src="https://www.youtube.com/embed/G-sicA62cOY" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <!-- Video gallery with thumbnails -->
+                        <div class="video-gallery">
+                            <div class="mb-2">
+                                <img class="video-thumbnail active" src="https://img.youtube.com/vi/G-sicA62cOY/0.jpg" alt="Video 1" data-video-src="https://www.youtube.com/embed/G-sicA62cOY">
+                            </div>
+
+                            <div class="mb-2">
+                                <img class="video-thumbnail" src="https://img.youtube.com/vi/n6XVTEE-1I4/0.jpg" alt="Video 2" data-video-src="https://www.youtube.com/embed/n6XVTEE-1I4">
+                            </div>
+                            <div class="mb-2">
+                                <img class="video-thumbnail" src="https://img.youtube.com/vi/-5AdILmhKRQ/0.jpg" alt="Video 2" data-video-src="https://www.youtube.com/embed/-5AdILmhKRQ">
+                            </div>
+                            <!-- Add more video thumbnails as needed -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -401,11 +559,51 @@
             </div>
         </div>
     </footer>
+    <script>
+        // JavaScript to handle video thumbnail clicks
+        $(document).ready(function() {
+            $(".video-thumbnail").click(function() {
+                // Remove the active class from all thumbnails
+                $(".video-thumbnail").removeClass("active");
 
+                // Add the active class to the clicked thumbnail
+                $(this).addClass("active");
+
+                // Get the data-video-src attribute of the clicked thumbnail
+                var videoSrc = $(this).data("video-src");
+
+                // Set the src attribute of the video player iframe to play the selected video
+                $("#video-player").attr("src", videoSrc);
+            });
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // JavaScript to handle video thumbnail clicks
+        $(document).ready(function() {
+            $(".video-thumbnail").click(function() {
+                // Remove the active class from all thumbnails
+                $(".video-thumbnail").removeClass("active");
+
+                // Add the active class to the clicked thumbnail
+                $(this).addClass("active");
+
+                // Get the data-video-src attribute of the clicked thumbnail
+                var videoSrc = $(this).data("video-src");
+
+                // Set the src attribute of the video player iframe to play the selected video
+                $("#video-player").attr("src", videoSrc);
+            });
+        });
+    </script>
+
 </body>
 
 </html>
